@@ -47,10 +47,10 @@ type CardResult struct {
 // Configuration
 const (
 	API_URL        = "https://api.croma.com/qwikcilver/v1/transactions"
-	CONCURRENCY    = 8
+	CONCURRENCY    = 3
 	CARDS_PER_FILE = 10000
 	DUMP_PER_FILE  = 100
-	BATCH_SAVE_SIZE = 500 // Save results every 50k cards
+	BATCH_SAVE_SIZE = 50 // Save results every 50k cards
 )
 
 var (
